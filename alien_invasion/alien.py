@@ -23,7 +23,7 @@ def run_game():
  """INTO SCREEN"""
  screen.fill(my_set.screen_color) # Change the color of the screen
  intro_post = screen.get_rect()
- image = pygame.image.load("C:\PROGRAMMING\Python\\alien_invasion\images\INTRO.bmp")
+ image = pygame.image.load("./images/INTRO.bmp")
  intro_rect = image.get_rect()
  intro_rect.center = intro_post.center
  #intro_rect.midtop = intro_post.midtop +(100)

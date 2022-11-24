@@ -7,7 +7,7 @@ class Ship():
     self.screen = screen
 
  # Load the ship image and get its rect.
-    self.image = pygame.image.load("C:\PROGRAMMING\Python\\alien_invasion\images\ship3.bmp")
+    self.image = pygame.image.load("./images/ship3.bmp")
     self.rect = self.image.get_rect() # getting the rectangle attribute of the image
     self.screen_rect = screen.get_rect()
 
