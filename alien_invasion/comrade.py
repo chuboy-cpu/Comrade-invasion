@@ -10,7 +10,7 @@ class Comrade(Sprite):
         self.setting = setting
 
  # Load the alien image and set its rect attribute.
-        self.image = pygame.image.load("C:\PROGRAMMING\Python\\alien_invasion\images\comrade 1.bmp")
+        self.image = pygame.image.load("./images/comrade_1.bmp")
         self.rect = self.image.get_rect()
 
  # Start each new alien near the top left of the screen.
